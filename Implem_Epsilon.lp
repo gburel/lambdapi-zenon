@@ -1,4 +1,4 @@
-require open Stdlib.Prop Stdlib.Set Stdlib.Eq Stdlib.FOL Stdlib.Epsilon Logic.Zenon.Main;
+require open Stdlib.Epsilon Logic.Zenon.Main;
 
 symbol Reps a (p : τ a → Prop) : (π (p (ε p)) → π ⊥) → π (∃ p) → π ⊥ ≔
 begin
